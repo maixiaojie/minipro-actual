@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTitleText": "天气",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false
+}

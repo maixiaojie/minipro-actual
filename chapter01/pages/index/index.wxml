@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+<image class='bg' src='../../images/bg.jpg'></image>
+<view class='content'>
+  <view class='tac city'>{{ city }}</view>
+  <view class='tac wind_dir'>{{ wind_dir }}</view>
+  <view class='tac tmp'>{{ tmp }}℃</view>
+  <view class='info_container'>
+      <view class='row'>
+        <view class='card'>
+          <view class='name'>体感温度</view><view class='value'>{{ fl }}</view>
+        </view>
+        <view class='card'>
+          <view class='name'>相对湿度</view><view class='value'>{{ hum }}</view>
+        </view>
+      </view>
+      <view class='row'>
+        <view class='card'>
+          <view class='name'>降水量</view><view class='value'>{{ pcpn }}</view>
+        </view>
+        <view class='card'>
+          <view class='name'>大气压强</view><view class='value'>{{ pres }}</view>
+        </view>
+      </view>
+      <view class='row'>
+        <view class='card'>
+          <view class='name'>能见度</view><view class='value'>{{ vis }}</view>
+        </view>
+        <view class='card'>
+          <view class='name'>风向角度</view><view class='value'>{{ wind_deg }}</view>
+        </view>
+      </view>
+      <view class='row'>
+        <view class='card'>
+          <view class='name'>风力</view><view class='value'>{{ wind_sc }}</view>
+        </view>
+        <view class='card'>
+          <view class='name'>风速</view><view class='value'>{{ wind_spd }}</view>
+        </view>
+      </view>
+  </view>
+  
+</view>
+ 
+</view>
